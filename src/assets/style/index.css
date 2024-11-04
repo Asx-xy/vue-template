@@ -1,0 +1,52 @@
+@import './reset.css';
+@import './flex.css';
+@import './common.less';
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-display: swap;
+  src: url('//at.alicdn.com/t/webfont_0q82cltaxst.eot'); /* IE9*/
+  src:
+    url('//at.alicdn.com/t/webfont_0q82cltaxst.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('//at.alicdn.com/t/webfont_0q82cltaxst.woff2') format('woff2'),
+    url('//at.alicdn.com/t/webfont_0q82cltaxst.woff') format('woff'),
+    /* chrome、firefox */ url('//at.alicdn.com/t/webfont_0q82cltaxst.ttf') format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/webfont_0q82cltaxst.svg#思源黑体-粗')
+      format('svg'); /* iOS 4.1- */
+}
+
+html {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-size: 4px;
+}
+body {
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  font-family: 'Noto Sans', 'PingFang', 'Microsoft YaHei';
+}
+#app {
+  height: 100%;
+  width: 100%;
+  min-width: 1280px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 6px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px white;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px white;
+  background-color: #c5c7ce;
+}
